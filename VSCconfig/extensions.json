@@ -1,0 +1,19 @@
+{
+	"recommendations": [
+		"Angular.ng-template",
+		"ms-vscode.cpptools",
+		"MS-CEINTL.vscode-language-pack-zh-hant",
+		"Unity.unity-debug",
+		"tanato.vscode-gulp",
+		"nickdodd79.gulptasks",
+		"slevesque.vscode-hexdump",
+		"donjayamanne.javadebugger",
+		"georgewfraser.vscode-javac",
+		"quantum.quantum-devkit-vscode",
+		"christian-kohler.npm-intellisense",
+		"ms-python.python",
+		"LaurentTreguier.uncrustify",
+		"robertohuertasm.vscode-icons",
+		"DotJoshJohnson.xml"
+	]
+}
