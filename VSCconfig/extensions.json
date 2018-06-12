@@ -1,17 +1,22 @@
 {
 	"recommendations": [
+		"lperdomo.angular1-code-snippets-johnpapastyle",
+		"Mikael.angular-beastcode",
 		"Angular.ng-template",
 		"ms-vscode.cpptools",
+		"ms-vscode.csharp",
 		"MS-CEINTL.vscode-language-pack-zh-hant",
 		"Unity.unity-debug",
 		"tanato.vscode-gulp",
 		"nickdodd79.gulptasks",
 		"slevesque.vscode-hexdump",
+		"xabikos.javascriptsnippets",
 		"donjayamanne.javadebugger",
 		"georgewfraser.vscode-javac",
 		"quantum.quantum-devkit-vscode",
 		"christian-kohler.npm-intellisense",
 		"ms-python.python",
+		"kriegalex.vscode-cudacpp",
 		"LaurentTreguier.uncrustify",
 		"robertohuertasm.vscode-icons",
 		"DotJoshJohnson.xml"
