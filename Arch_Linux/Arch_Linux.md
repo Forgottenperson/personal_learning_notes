@@ -21,8 +21,12 @@ xorg-server xorg-server-utils(xorg-apps) xorg-xinit
 --------------------------
 AMD- xf86-video-amdgpu  
 Intel- xf86-video-intel  
-Nvidia- xf86-video-nouveau  
+Nvidia- xf86-video-nouveau
 
+VMware- open-vm-tools
+        xf86-video-vmware
+        xf86-input-vmmouse
+        vmtoolsd.service(enable)
 
 登入圖形管理(擇一(自己都用括弧起來的))
 --------------------------

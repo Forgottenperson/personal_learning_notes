@@ -82,3 +82,12 @@ enum Days {Mon = 1, Tue, Wed, Thu, Fri, Sat, Sun};
 
 ============================================================
 
+Dictionary
+---
+```
+Key to Value 
+
+如文字對應變數 效果跟Json類似
+
+
+```
