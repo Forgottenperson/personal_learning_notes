@@ -20,6 +20,7 @@
 		"LaurentTreguier.uncrustify",
 		"robertohuertasm.vscode-icons",
 		"DotJoshJohnson.xml",
-		"formulahendry.code-runner"
+		"formulahendry.code-runner",
+		"mitaki28.vscode-clang"
 	]
 }
