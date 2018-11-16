@@ -19,6 +19,7 @@
 		"kriegalex.vscode-cudacpp",
 		"LaurentTreguier.uncrustify",
 		"robertohuertasm.vscode-icons",
-		"DotJoshJohnson.xml"
+		"DotJoshJohnson.xml",
+		"formulahendry.code-runner"
 	]
 }
