@@ -18,9 +18,10 @@
 		"ms-python.python",
 		"kriegalex.vscode-cudacpp",
 		"LaurentTreguier.uncrustify",
-		"robertohuertasm.vscode-icons",
+		"vscode-icons-team.vscode-icons",
 		"DotJoshJohnson.xml",
 		"formulahendry.code-runner",
-		"mitaki28.vscode-clang"
+		"mitaki28.vscode-clang",
+		"fernandoescolar.vscode-solution-explorer"
 	]
 }
