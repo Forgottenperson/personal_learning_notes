@@ -1,9 +1,11 @@
 {
 	"recommendations": [
 		"lperdomo.angular1-code-snippets-johnpapastyle",
-		"Mikael.angular-beastcode",
+		"gurayyarar.imagesprites",
 		"Angular.ng-template",
 		"ms-vscode.cpptools",
+		"slevesque.shader",
+		"ms-dotnettools.csharp",
 		"ms-vscode.csharp",
 		"MS-CEINTL.vscode-language-pack-zh-hant",
 		"Unity.unity-debug",
