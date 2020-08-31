@@ -40,7 +40,7 @@ mdm-display-manager,(slim),xorg-xdm
 
 桌面管理(擇一)
 --------------------------
-KDE Plasma 5 -plasma  
+KDE Plasma 5 -plasma  plasma-wayland-session
 Cinnamon- cinnamon  
 gnome - gnome  
 LXDE -lxde  
@@ -289,6 +289,16 @@ static domain_name_servers=8.8.8.8 8.8.4.4
 
 ```
 
+VMware 設定
+---
+```
+vmware-hgfsclient
+在虛擬機中使用此指令可以看到 VMware 有設定分享檔案的名稱
+
+mkdir <shared folders root directory>
+sudo vmhgfs-fuse -o allow_other -o auto_unmount .host:/<shared_folder> <shared folders root directory>
+建立資料夾並掛載 VMware 所分享的資料夾
+```
 /etc/skel 目錄 
 ---
 建立新使用者時 所預設的資料夾模版目錄
