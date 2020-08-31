@@ -288,3 +288,7 @@ static domain_name_servers=8.8.8.8 8.8.4.4
 可以看到取得的 DNS
 
 ```
+
+/etc/skel 目錄 
+---
+建立新使用者時 所預設的資料夾模版目錄
