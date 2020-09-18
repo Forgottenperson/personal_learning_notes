@@ -378,7 +378,7 @@ ssh Tunnel
 ---
 ```
 //本地機器連到遠端機器
-ssh -L (本地的Port):(遠端的(Local address)):(遠端的(Local address)的Port)  (遠端帳戶):(遠端ip位址)
+ssh -L (本地的Port):(遠端的(Local address)):(遠端的(Local address)的Port)  (遠端存取資源電腦的帳戶):(遠端ip位址)
 //遠端機器連回本地機器
 ssh -N -R (遠端的Port):(本地位址(localhost)):(本地位址的Port)   (遠端ip位址)
 ```
@@ -443,4 +443,12 @@ sudo vmhgfs-fuse -o allow_other -o auto_unmount .host:/<shared_folder> <shared f
 ---
 ```
 建立新使用者時 所預設的資料夾模版目錄
+```
+---
+
+rm
+---
+```
+rm -d 刪除空目錄  
+rm -r 遞回刪除資料夾內檔案
 ```

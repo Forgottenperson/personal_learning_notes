@@ -13,8 +13,6 @@
 		"nickdodd79.gulptasks",
 		"slevesque.vscode-hexdump",
 		"xabikos.javascriptsnippets",
-		"donjayamanne.javadebugger",
-		"georgewfraser.vscode-javac",
 		"quantum.quantum-devkit-vscode",
 		"christian-kohler.npm-intellisense",
 		"ms-python.python",
@@ -22,7 +20,6 @@
 		"LaurentTreguier.uncrustify",
 		"vscode-icons-team.vscode-icons",
 		"DotJoshJohnson.xml",
-		"formulahendry.code-runner",
 		"mitaki28.vscode-clang",
 		"fernandoescolar.vscode-solution-explorer"
 	]
