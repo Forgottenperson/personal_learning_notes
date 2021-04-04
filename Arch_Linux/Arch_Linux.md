@@ -156,7 +156,7 @@ pacman -S xorg-server xorg-server-utils(xorg-apps) xorg-xinit
     * xf86-input-vmmouse
     * (VMware 底下的元件都要安裝) 並啟用 vmtoolsd.service
 
-登入圖形管理(擇一(自己都用括弧起來的))
+登入圖形管理(擇一)
 --------------------------
 * KDE Plasma 5 - sddm  
 * KDE4 -kdm  
@@ -164,7 +164,7 @@ pacman -S xorg-server xorg-server-utils(xorg-apps) xorg-xinit
 * LXDE -lxdm  
 * Universal Display Managers - lightdm  
 * mdm-display-manager
-* (slim)
+* slim
 * xorg-xdm  
 
 桌面管理(擇一)
@@ -186,12 +186,20 @@ pacman -S xorg-server xorg-server-utils(xorg-apps) xorg-xinit
 * LXDE -N/A  
 * MATE -mate-extra  
 * XFCE -xfce4-goodies  
+* i3
+    * thunar
+    * xwallpaper
+    * picom
+        * 附註 設置 opacity-rule 可以調整透明度
 
 
 圖形化terminel終端機(擇一或自己找)
 --------------------------
 * gnome-terminal  
 * rxvt-terminal
+* i3 
+    * alacritty
+
 
 ---
 

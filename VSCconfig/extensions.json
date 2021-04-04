@@ -21,6 +21,7 @@
 		"vscode-icons-team.vscode-icons",
 		"DotJoshJohnson.xml",
 		"mitaki28.vscode-clang",
-		"fernandoescolar.vscode-solution-explorer"
+		"fernandoescolar.vscode-solution-explorer",
+		"tyriar.shell-launcher"
 	]
 }
