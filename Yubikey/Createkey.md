@@ -15,6 +15,16 @@ tools
 教學
 ---
 ```
+首次須先修改Yubikey 密碼
+gpg2 --card-edit
+可以看自己的Yubikey OpenPGP資訊
+之後輸入
+>admin
+>passwd
+
+改密碼請修改PIN & Admin PIN
+
+
 建立金鑰
 gpg2 --export --full-gen-key
 
@@ -53,18 +63,6 @@ gpg2 --edit-key (KeyWord)
 只能回答3
 
 >Save
-
-
-gpg2 --card-edit
-可以看自己的Yubikey OpenPGP資訊
-之後輸入
->admin
->passwd
-
-改密碼請修改PIN & Admin PIN
-
-
-
 ```
 PIV
 ===
