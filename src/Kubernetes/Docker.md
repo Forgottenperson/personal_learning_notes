@@ -41,5 +41,8 @@ docker rm "container-id"
 docker rmi "container-image"
 ```
 
-其他
-registry image 建立私有的container儲存庫
+其他 
+
+registry image 
+
+建立私有的container儲存庫

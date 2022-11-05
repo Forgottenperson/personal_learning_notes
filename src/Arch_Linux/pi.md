@@ -1,4 +1,5 @@
-## 個人使用桌面環境安裝
+個人使用桌面環境安裝
+===
 * pacman -Syu alsa-firmware alsaplayer alsa-lib alsa-utils alsa-plugins //Pi驅動程式
 * i3(i3-wm) // desktop
 * ranger //filemanager
@@ -8,22 +9,25 @@
 * NetworkManager
 * ssh
 
-/boot/config.txt
-----
 
+/boot/config.txt
+---
 ```
  http://elinux.org/RPi_config.txt
  sudo amixer cset numid=3 <n>
  0=auto, 1=analog, 2=hdmi
 ```
-=============================
+
 ```
 hdmi_force_hotplug=1
 hdmi_force_edid_audio=1
 arm_control=0x200 64bit
 ```
 
- ---------------------------------------------------------------
+
+
+omxplayer使用
+===
 
 python install --upgrade youtube-dl
 ```
@@ -33,8 +37,8 @@ omxplayer `youtube-dl -g -f <format_id> <youtube-url>`
 Exp:omxplayer -o local --win 0,0,1280,720 `youtube-dl -g -f best <youtube-url>`
  ```
 
- 無線網路(wifi)(etc/wpa_supplicant)
---------
+無線網路(wifi)(etc/wpa_supplicant)
+===
 
 在wpa_supplicant
 建立home_wifi (可以隨意自己取名)

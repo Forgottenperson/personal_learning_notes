@@ -5,7 +5,7 @@
     * [Raspberry pi 3筆記](Arch_Linux/pi.md)
 * [C](CandCpulse/C.md)
 * [C ++](CandCpulse/Cpulse.md)
-* [C #](C#/C_sharp.md)
+* [C #](Csharp/C_sharp.md)
 * [Git](Git/Git.md)
 * [GPG](GPG/gpg.md)
 * [JavaScript](JavaScript/React.md)
