@@ -27,7 +27,7 @@ arm_control=0x200 64bit
 
 
 omxplayer使用
-===
+---
 
 python install --upgrade youtube-dl
 ```
@@ -37,8 +37,10 @@ omxplayer `youtube-dl -g -f <format_id> <youtube-url>`
 Exp:omxplayer -o local --win 0,0,1280,720 `youtube-dl -g -f best <youtube-url>`
  ```
 
+
+
 無線網路(wifi)(etc/wpa_supplicant)
-===
+---
 
 在wpa_supplicant
 建立home_wifi (可以隨意自己取名)

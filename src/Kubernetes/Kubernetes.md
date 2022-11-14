@@ -29,6 +29,28 @@ Ingress -> Service -> deployment
 
 
 Service 設定可以讓指定的容器跟外部進行連線
+===
+Service 提供述種網路設定
+
+* NodePort 
+    
+    external network -> (nodePort)node-> cluster(port) -> (targetPort)Pod
+    
+    注意括弧位置，其位置代表Port的接收/發送方向
+
+* ClusterIP
+
+    cluster -> Pod
+
+    外部無法連上此服務，主要是讓叢集(Cluster)內的Pod與Pod間能夠互相訪問，例如資料庫與網頁
+
+* LoadBalancer
+* ExternalName
+
+
+---
+
+
 
 Ingress 類似像apache 的 virtualhost
 
@@ -40,11 +62,13 @@ Secret 與 ConfigMap 正好相反需要對部分設定檔進行加密
 
 
 
-Volumes
-
-    emptyDir
-    hostPath
+* Volumes
+    * emptyDir
+    * hostPath
 
 PVC(PersistentVolumeClaim) 會找 PV(PersistentVolume) 進行匹配
 
 若無則會以 StorageClass 建立新的"動態匹配"
+
+---
+
