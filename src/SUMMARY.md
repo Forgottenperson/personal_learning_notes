@@ -8,6 +8,7 @@
     * [C ++](CandCpulse/Cpulse.md)
     * [C\#](Csharp/C_sharp.md)
     * [JavaScript](JavaScript/React.md)
+    * [SQL](SQL/SQL.md)
 * [Git](Git/Git.md)
 * [GPG](GPG/gpg.md)
 * [Yubikey](Yubikey/Createkey.md)

@@ -20,17 +20,19 @@ int main(){
 
 template
 ---
+```
 template<class T>
 T action(T x,T y){
     return T;
 }
+```
 
 
 File
 ---
-```
-#include <fstream> 
-```
+
+> #include <fstream> 
+
 
 * ofstream
 * ifstream

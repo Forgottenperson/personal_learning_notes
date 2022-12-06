@@ -52,10 +52,11 @@ union Data {
 
 typedef #define(Macros)
 ---
-* typedef 
-    * compiler 
 * #define(Macros)
     * pre-processor
+* typedef 
+    * compiler 
+
 
 
 (a.h a.c)->pre-processor->Compiler->(a.o ... .o) -> linker -> exe(a.out)

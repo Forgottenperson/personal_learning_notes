@@ -19,6 +19,22 @@ git reset 使用方式
 
 ---
 
+git revert
+---
+
+取消commit出去的東西，
+log上仍看的到復原紀錄，
+push錯誤只能用此方式修正
+
+
+
+git commit --amend
+---
+修改前一筆commit內容檔案
+
+
+---
+
 git Branch
 ---
 使用 branch 可以自由切換/建立新分支
@@ -30,8 +46,10 @@ git Branch
 ---
 submodule
 ---
-### 新增 submodule
 
+
+新增 submodule
+---
 >git submodule add git://github.com/majutsushi/tagbar.git .vim/bundle/tagbar
 
 foreach 指令：
@@ -42,7 +60,7 @@ foreach 指令：
 
 
 
-### 刪除 submodule
+刪除 submodule
 ---
 >git rm --cached /path/to/files
 
