@@ -72,3 +72,7 @@ Model綁定，需要傳入ViewModel與在View上方宣告ViewModel type，即可
 @Html.Label("xxx")
 @Html.LabelFor(model => model.ID)
 ```
+
+
+
+EF6 *.edmx
